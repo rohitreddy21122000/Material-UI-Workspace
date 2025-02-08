@@ -5,7 +5,7 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: "12px", // Rounded corners
+          borderRadius: "25px", // Rounded corners
           backgroundColor: "black",
           color: "white",
           fontWeight: "bold",
@@ -37,7 +37,6 @@ const theme = createTheme({
             alignItems: "center",
             textAlign: "center",
             whiteSpace: "normal", // Prevents text overflow
-            wordWrap: "break-word",
             overflow: "hidden",
           },
         },

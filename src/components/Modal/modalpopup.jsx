@@ -26,7 +26,7 @@ const ModalPopUp = () => {
   return (
     <ThemeProvider theme={theme}>
       <Box>
-        <Button variant="contained" size="large" onClick={() => setModalOpen(true)}>
+        <Button variant="contained" size="small" onClick={() => setModalOpen(true)}>
           Open Modal
         </Button>
         <Modal open={modalOpen} onClose={() => setModalOpen(false)}>
