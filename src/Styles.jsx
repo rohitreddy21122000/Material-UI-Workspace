@@ -24,8 +24,7 @@ const theme = createTheme({
           },
           "& .MuiDataGrid-columnHeaderTitle": {
             display: "flex",
-            justifyContent: "center",
-            textAlign: "center",
+            alignItems:"center",
             width: "100%",
             whiteSpace: "normal", // Allows multi-line headers
             lineHeight: "1.2",
